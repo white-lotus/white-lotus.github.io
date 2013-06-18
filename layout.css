@@ -1,0 +1,235 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary, time, mark, audio, video
+	{margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section
+		{display: block;}
+body	{line-height: 1;}
+ol, ul	{list-style: none;}
+blockquote, q	{quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after
+	{content: '';
+	content: none;}
+
+table	{border-collapse: collapse;
+		border-spacing: 0;}
+
+
+
+
+body {
+	position: relative;
+	width: 100%;
+}
+
+
+/*------------------------ Head ------------------------*/
+
+
+#head {
+	margin: 0 auto;
+	position: relative;
+	width: 915px;
+}
+
+img.banner	{
+	display: block;
+	margin-top: 70px;
+}
+
+
+/*------------------------ Main ------------------------*/
+
+#main {
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	position: relative;
+	overflow: visible;
+	width: 915px;
+}
+
+.resume {
+	background: url(images/background.png);
+}
+
+.interior {
+	background: url(images/interior_background.png);
+}
+
+.crafts {
+	background: url(images/crafts_background.png);
+}
+
+.web {
+	background: url(images/web_background.png);
+}
+
+
+
+/*------------------------ Menu ------------------------*/
+
+
+#menu {
+	padding: 6px 6px 0 0;
+	position: relative;
+	text-align: right;
+	width: 910px;
+}
+
+img.button {
+	position: relative;
+}
+
+ul.list_menu li	{
+	display: inline;
+}
+
+ul.list_menu {
+	position: relative;
+}
+
+ul.list_menu li a {
+	display: inline-block;
+	background-image: url(images/button.png);
+	background-repeat: no-repeat;
+	line-height: 62px;
+	text-align: center;
+	vertical-align: center;
+	width: 62px;
+	height: 62px;
+}
+
+ul.list_menu li a:hover {
+	background-position: 0 -62px;
+}
+
+a {
+	font-size: 14px;
+	font-family: "Myriad Pro", Arial, sans-serif;
+	text-decoration: none;
+}
+
+a.resume {
+	color: #00632e;
+}
+
+a.crafts, a.web {
+	color: #a10d59;
+}
+
+a.interior {
+	color: #0c3183;
+}
+
+
+/*------------------------ Contents ------------------------*/
+
+
+#contents {
+	min-height: 643px;
+}
+
+.background {
+	position: absolute;
+	float: left;
+}
+
+.selection {
+	position: relative;
+	float: left;
+	left: 70px;
+}
+
+ul.list_selection {
+	margin-top: 40px;
+}
+
+ul.list_selection li {
+	display: block;
+	width: 173px;
+	height: 173px;
+}
+
+img.back {
+	position: absolute;
+	left: -80px;
+	*left: -250px;
+}
+
+img.back_web {
+	position: absolute;
+	top: 120px;
+	left: -80px;
+	*left: -250px;
+}
+
+.webpages {
+	position: relative;
+	line-height: 6;
+	margin-top: 80px;
+	margin-left: 80px;
+}
+
+.image {
+	position: relative;
+	margin: 20px 0 0 20px;
+}
+
+.image img {
+    position:absolute;
+    display: none;
+}
+
+.border {
+	background: url(images/image_2.jpg);
+	background-repeat: no-repeat;
+	background-position: center; 
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 280px;
+	*margin-left: 140px;
+	border: solid #00632e 4px;
+	width: 590px;
+	height: 407px;
+}
+
+
+/*------------------------ Images ------------------------*/
+
+
+#slideshow {
+    width: auto;
+	position: relative;
+	left: 238px;
+	top: 8px;
+}
+
+#slideshow img {
+    position:absolute;
+    top:8%;
+    left:8%;
+    z-index:8;
+}
+
+#slideshow img.active {
+    z-index:10;
+}
+
+#slideshow img.last-active {
+    z-index:9;
+}
