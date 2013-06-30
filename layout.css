@@ -49,7 +49,7 @@ body {
 
 img.banner	{
 	display: block;
-	margin-top: 70px;
+	margin-top: 15px;
 }
 
 
@@ -64,19 +64,19 @@ img.banner	{
 }
 
 .resume {
-	background: url(images/background.png);
+	background: url(images/background.jpg);
 }
 
 .interior {
-	background: url(images/interior_background.png);
+	background: url(images/interior_background.jpg);
 }
 
 .crafts {
-	background: url(images/crafts_background.png);
+	background: url(images/crafts_background.jpg);
 }
 
 .web {
-	background: url(images/web_background.png);
+	background: url(images/web_background.jpg);
 }
 
 
@@ -124,15 +124,15 @@ a {
 	text-decoration: none;
 }
 
-a.resume {
+a.interior {
 	color: #00632e;
 }
 
-a.crafts, a.web {
+a.crafts {
 	color: #a10d59;
 }
 
-a.interior {
+a.web {
 	color: #0c3183;
 }
 
@@ -143,6 +143,11 @@ a.interior {
 #contents {
 	min-height: 643px;
 }
+
+#contents_web {
+	min-height: 0;
+}
+
 
 .background {
 	position: absolute;
